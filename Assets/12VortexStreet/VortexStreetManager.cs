@@ -108,19 +108,19 @@ public class VortexStreetManager : MonoBehaviour
         Graphics.Blit(VelocityRT2, VelocityRT, SubtractMat);
         Graphics.Blit(VelocityRT, VelocityRT2);
 
-        //第六步：用最终速度去平流密度
+        //第六步：用最终速度去平流密度  
         Graphics.Blit(DyeRT, DyeRT2);
         AdvectionDyeMat.SetTexture("VelocityTex", VelocityRT2);
-        AdvectionDyeMat.SetTexture("DensityTex", DyeRT);
+        AdvectionDyeMat.SetTexture("DensityTex", DyeRT2);
         AdvectionDyeMat.SetTexture("BlockTex", BlockRT);
         AdvectionDyeMat.SetTexture("InitDyeTex", InitDyeRT);
         AdvectionDyeMat.SetFloat("dt", dt);
-        Graphics.Blit(DyeRT2, DyeRT, AdvectionDyeMat);
+        Graphics.Blit(null, DyeRT, AdvectionDyeMat);
 
-        //MoveObject(VelocityRT2);
-        //第七步：显示
+        MoveObject(VelocityRT2);
+        //第七步：显示  
         DisplayMat.SetTexture("BlockTex", BlockRT);
-        //DisplayRainbowMat.SetTexture("BlockTex", BlockRT);
+        //DisplayRainbowMat.SetTexture("BlockTex", BlockRT); 
         Graphics.Blit(DyeRT, destination, DisplayMat);
         //Graphics.Blit(VelocityRT2, destination, DisplayRainbowMat);
         //Graphics.Blit(PressureRT2, destination, DisplayRainbowMat);

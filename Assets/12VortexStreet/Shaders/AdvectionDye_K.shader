@@ -52,7 +52,7 @@
         UNITY_TRANSFER_FOG(o,o.vertex);
         return o;
       }
-      float4 frag(v2f i) :SV_Target{
+        float4 frag(v2f i) :SV_Target{
         float2 vel = tex2D(VelocityTex, i.uv).xy;
         float4 col = tex2D(DensityTex, i.uv - 0.01f*vel);
         if(i.uv.x < 0.1f)col = tex2D(InitDyeTex, i.uv);
