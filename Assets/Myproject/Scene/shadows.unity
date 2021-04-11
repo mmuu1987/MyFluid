@@ -305,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instanceCount: 100000
   instanceMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-  instanceMaterial: {fileID: 2100000, guid: c285b066f0a7710469846a2898b43f63, type: 2}
+  instanceMaterial: {fileID: 2100000, guid: 5b3997683ebe6154a94f42e77e04e924, type: 2}
   subMeshIndex: 0
 --- !u!81 &1387383032
 AudioListener:
