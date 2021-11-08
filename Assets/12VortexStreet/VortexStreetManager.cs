@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VortexStreetManager : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class VortexStreetManager : MonoBehaviour
     public float dt = 0.1f;
 
 
-    public ComputeShader ScaleImageComputeShader;
+   public ComputeShader ScaleImageComputeShader;
 
     
 
@@ -71,7 +72,7 @@ public class VortexStreetManager : MonoBehaviour
         ComputeBuffer.SetData(data);
     }
 
-    void OnRenderImage(RenderTexture source, RenderTexture destination)
+    void Update()
     {
         ScaleImageUserRt();
 
@@ -121,7 +122,7 @@ public class VortexStreetManager : MonoBehaviour
         //第七步：显示  
         DisplayMat.SetTexture("BlockTex", BlockRT);
         //DisplayRainbowMat.SetTexture("BlockTex", BlockRT); 
-        Graphics.Blit(DyeRT, destination, DisplayMat);
+       // Graphics.Blit(DyeRT, destination, DisplayMat);
         //Graphics.Blit(VelocityRT2, destination, DisplayRainbowMat);
         //Graphics.Blit(PressureRT2, destination, DisplayRainbowMat);
         //Graphics.Blit(source, destination);
@@ -153,10 +154,14 @@ public class VortexStreetManager : MonoBehaviour
     public Transform _moveTransform;
     public Camera MainCamera;
     public ComputeBuffer ComputeBuffer;
-    
+
+    public Image MoveImage;
+
+    public float Speed = 1f;
+
     private void MoveObject(RenderTexture rt)
     {
-        Vector3 screenPos = MainCamera.WorldToScreenPoint(_moveTransform.position);
+        Vector3 screenPos  = MoveImage.rectTransform.position;
 
         Vector2 pos = new Vector2((int)(screenPos.x),(int)(screenPos.y));
 
@@ -173,12 +178,14 @@ public class VortexStreetManager : MonoBehaviour
         Data[] data = new Data[1];
         ComputeBuffer.GetData(data);
 
-        Debug.Log(data[0].pos);
-        
+        //Debug.Log(data[0].Speed);
+
+        Vector3 velocity = new Vector3(data[0].Speed.x, data[0].Speed.y,0);
+        MoveImage.rectTransform.position += velocity* Speed;
     }
 }
 
 public struct Data
 {
-    public Vector2 pos;
+    public Vector2 Speed;
 }

@@ -1,0 +1,885 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity2020\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/FILE_WZS/Git/MyFluid
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54288
+Successfully changed project path to: E:/FILE_WZS/Git/MyFluid
+E:/FILE_WZS/Git/MyFluid
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path D:/unity2020/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/FILE_WZS/Git/MyFluid/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7212
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/unity2020/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity2020/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity2020/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity2020/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000979 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2983 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3433.
+Total: 3.127500 ms (FindLiveObjects: 0.704100 ms CreateObjectMapping: 0.249400 ms MarkObjects: 2.058800 ms  DeleteObjects: 0.113500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/12VortexStreet/FluidTest.cs
+  artifactKey: Guid(47a5363adabd9b344bb4986774969ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.cs using Guid(47a5363adabd9b344bb4986774969ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863ba5ded741a8e1b9f82e62c75dcdf7') in 0.040996 seconds
+  Import took 0.045522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f49f134c363642c802753cced0c508') in 0.018998 seconds
+  Import took 0.038698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.231322 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd727a8fa6f714ea7c15f175d43eef36a') in 0.002948 seconds
+  Import took 0.019003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048118 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd727a8fa6f714ea7c15f175d43eef36a') in 0.002776 seconds
+  Import took 0.007461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.224867 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f29893531c142944c5d16913ad959da') in 0.002756 seconds
+  Import took 0.007516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016217 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f29893531c142944c5d16913ad959da') in 0.003013 seconds
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.446071 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3773e218b62960d4807b58a48d525d') in 0.005820 seconds
+  Import took 0.011201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.772195 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f0dab8000fd9c191295cb26f9d9a22') in 0.003643 seconds
+  Import took 0.008392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.260753 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccf8eb724e40eb6c16c89d828d26697') in 0.003250 seconds
+  Import took 0.007694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.263955 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b487f43ac5fc6245ac741a2c3d41c0e') in 0.004039 seconds
+  Import took 0.008388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.623791 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754167fd4ca747cbb9615638c296653b') in 0.005828 seconds
+  Import took 0.011252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.551996 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e061c037fce8f27e320a184d09260c97') in 0.004506 seconds
+  Import took 0.009210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.837662 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fcbc47bb477409dc60f2b25e52fe39') in 0.004077 seconds
+  Import took 0.009160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.326289 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c455977ac534a8b92b72238a15b8470c') in 0.005395 seconds
+  Import took 0.010903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.199490 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555d2f017518094404bfb494defb1472') in 0.003260 seconds
+  Import took 0.007808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.557901 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef808302625a0b8d7b62444aed34ad25') in 0.003472 seconds
+  Import took 0.008328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.951810 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d38fc2beac09ff46d34dc1ad278fc9e') in 0.004006 seconds
+  Import took 0.008928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.690443 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7899b6be71b6939932cd5d252f64c2fc') in 0.003110 seconds
+  Import took 0.021073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012539 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7899b6be71b6939932cd5d252f64c2fc') in 0.003283 seconds
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.033973 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd3fe53f0144662bd8c8555c029b18') in 0.003127 seconds
+  Import took 0.007896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003945 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd3fe53f0144662bd8c8555c029b18') in 0.003357 seconds
+  Import took 0.008016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.232029 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2f6683f5621d96d8a46b3e64b71051') in 0.004248 seconds
+  Import took 0.008589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.442560 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e532d467e8d721d0ace159fa2243789') in 0.003919 seconds
+  Import took 0.008109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.364005 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190a5374970a6a061e4088812edb670d') in 0.008059 seconds
+  Import took 0.014075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061946 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190a5374970a6a061e4088812edb670d') in 0.003826 seconds
+  Import took 0.008457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.252440 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4f9f2bede594a09effef27bc6f4bc4') in 0.003136 seconds
+  Import took 0.007338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.553769 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7741dbc4c0567e59e0805614e9112639') in 0.003222 seconds
+  Import took 0.007700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.339583 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a413e124e88c3e8a5a4b2bb653d37262') in 0.003554 seconds
+  Import took 0.022752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077949 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a413e124e88c3e8a5a4b2bb653d37262') in 0.003192 seconds
+  Import took 0.007421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.512439 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f292b082e20fc381ea78dd140705e6b5') in 0.003376 seconds
+  Import took 0.023350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008625 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f292b082e20fc381ea78dd140705e6b5') in 0.003207 seconds
+  Import took 0.007475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.593093 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55c032454002857e00ddbcc9c1cc114') in 0.003831 seconds
+  Import took 0.009088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.373798 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a5389816a625999c8327a71468031e') in 0.003383 seconds
+  Import took 0.020314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012251 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a5389816a625999c8327a71468031e') in 0.003373 seconds
+  Import took 0.008109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.714074 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125ce28342947fdc585dd994a07b0e24') in 0.005552 seconds
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.587585 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1329d6f6b5055687c95476a6d7cb16fd') in 0.005248 seconds
+  Import took 0.011083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.561838 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862e317a152f063f0e61ddebd3b0538e') in 0.003414 seconds
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.237647 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be60077e18f575584ec98fb3bb8a442') in 0.003208 seconds
+  Import took 0.024468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009214 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be60077e18f575584ec98fb3bb8a442') in 0.003295 seconds
+  Import took 0.008036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.781293 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5832f20ab0cb56ae02d1ec5b72b3d1') in 0.003451 seconds
+  Import took 0.008180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.425997 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb289c53d854acd2e7207366890d7f5') in 0.003188 seconds
+  Import took 0.007415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.455202 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71777676de4fd7b1df1885e82f2c7e4') in 0.003510 seconds
+  Import took 0.008997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.076457 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d7b2ed2e351e3a459140fbebf0d9c1') in 0.003799 seconds
+  Import took 0.008152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.485357 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7b992a8acb9303f1fc727a89fc7daf') in 0.003707 seconds
+  Import took 0.009368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.347607 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f435efb9b6084af334f7c2d4001daed5') in 0.003652 seconds
+  Import took 0.027293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.146514 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3015826eaad4a4f403b90b0d47840a') in 0.004286 seconds
+  Import took 0.024426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047494 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3015826eaad4a4f403b90b0d47840a') in 0.003303 seconds
+  Import took 0.007830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.824803 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73db88797033e80cf69930b7f71e7b12') in 0.004142 seconds
+  Import took 0.009633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.811785 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbc141476bb0a6eada3f073e0a6406f') in 0.003722 seconds
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005433 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbc141476bb0a6eada3f073e0a6406f') in 0.004186 seconds
+  Import took 0.009134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.256564 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178bfa4339f1fe9872e9329e0c77d0fc') in 0.003001 seconds
+  Import took 0.007223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.608309 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a23266ed85a0e0bc2c6a6ed46b95e89') in 0.003052 seconds
+  Import took 0.007870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.024312 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e522ef86b008c66884b41271c86ae2a4') in 0.003180 seconds
+  Import took 0.007480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.076514 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad265adf51660b66df245d5e4e06e7b') in 0.003928 seconds
+  Import took 0.032536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006568 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad265adf51660b66df245d5e4e06e7b') in 0.005021 seconds
+  Import took 0.010139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.540817 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffeb188adfd72b048b02b913f8aac77') in 0.004459 seconds
+  Import took 0.008910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.568343 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ad1b0b143ce2e3dcb1f32bfbf27d18') in 0.003260 seconds
+  Import took 0.007442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.015978 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4dbf81aab2902d418aa47296e68db7') in 0.003436 seconds
+  Import took 0.021728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010083 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4dbf81aab2902d418aa47296e68db7') in 0.003916 seconds
+  Import took 0.008553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.030182 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f79caebdb57741881c7294567d37c0') in 0.003482 seconds
+  Import took 0.028761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037059 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f79caebdb57741881c7294567d37c0') in 0.003178 seconds
+  Import took 0.007592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.573021 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e5db357a1a9a8249d2aa05596b2416') in 0.003362 seconds
+  Import took 0.020340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047237 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e5db357a1a9a8249d2aa05596b2416') in 0.003545 seconds
+  Import took 0.007920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.840720 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29caa5ec2598ca7066ca54118e9c5641') in 0.003718 seconds
+  Import took 0.008384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.087186 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a0864a5e5cc4c431dff35bb91686d') in 0.004115 seconds
+  Import took 0.024672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.366938 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175ab3ca3fc5feb3dbc07999612fb04b') in 0.003053 seconds
+  Import took 0.007145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.719761 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0921309b3e7dc65207c366bc058ff7ea') in 0.003484 seconds
+  Import took 0.008618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.814159 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e74b7552d996c5921a8025272183c9') in 0.003449 seconds
+  Import took 0.007931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.148765 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd329ac151686a988c3d4ea0bab1ea873') in 0.004003 seconds
+  Import took 0.011237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.032931 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec411718c3846620fe80bd28e8733a8f') in 0.006065 seconds
+  Import took 0.011476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.680786 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630ecf982f6f8cabbdd71fc00db2439c') in 0.003685 seconds
+  Import took 0.009275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.466937 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e656666f76913f2ae408cb78ebf40b') in 0.005418 seconds
+  Import took 0.012067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.266204 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aa7760d512522d7b7f8634700f6720') in 0.003321 seconds
+  Import took 0.007626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.286033 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcbdf7a440314bd016d348907a869d4') in 0.003829 seconds
+  Import took 0.008659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.103121 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a640c0875fba29a275b35f85ed6369') in 0.004066 seconds
+  Import took 0.010120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.662966 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6a3d88879c1a5e1f7b50a4b3555b6d') in 0.003343 seconds
+  Import took 0.007601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.815682 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d02ec6669c9c3bacd6d38c83d4e4f4f') in 0.005494 seconds
+  Import took 0.010145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.485301 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bb2f7d49a827adeebb838517f1262c') in 0.003735 seconds
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.022439 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c901afde646d3fdd6c1d43d326d47') in 0.004173 seconds
+  Import took 0.008796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.213016 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fe8080dc723a9a57c367087b41b5f2') in 0.002901 seconds
+  Import took 0.007863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.663658 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b6c69230d490c6ea2c99951db1bf84') in 0.003268 seconds
+  Import took 0.020635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016667 seconds.
+  path: Assets/12VortexStreet/New VFX.vfx
+  artifactKey: Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/New VFX.vfx using Guid(0164f27ee34d6b84b968f33c56641704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b6c69230d490c6ea2c99951db1bf84') in 0.002939 seconds
+  Import took 0.007263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 610.323250 seconds.
+  path: Assets/Myproject/Shader&Mat
+  artifactKey: Guid(55e0a67ec57da2044ba736de5c8da3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Myproject/Shader&Mat using Guid(55e0a67ec57da2044ba736de5c8da3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6643c129a2d8347fae7f293c0394f08') in 0.017821 seconds
+  Import took 0.023570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344317 seconds.
+  path: Assets/Myproject/Scripts
+  artifactKey: Guid(0cef66d7b5b572c439b048a3359ff9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Myproject/Scripts using Guid(0cef66d7b5b572c439b048a3359ff9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ca8a9ba242186d83d3788e8f6bedef') in 0.002564 seconds
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 2.466200 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.271100 ms MarkObjects: 1.734400 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16796.558448 seconds.
+  path: Assets/12VortexStreet/VortexStreet.unity
+  artifactKey: Guid(6e0900f8d2c6f8b41811b13019d19801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/VortexStreet.unity using Guid(6e0900f8d2c6f8b41811b13019d19801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7b20b3da05e68e3ba50a302d18167e') in 0.090596 seconds
+  Import took 0.095358 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3437.
+Total: 2.126600 ms (FindLiveObjects: 0.491300 ms CreateObjectMapping: 0.142000 ms MarkObjects: 1.478400 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.156776 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4d92dfb9133eb5f5f6186caca84a7c') in 0.020693 seconds
+  Import took 0.025717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.150289 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab4d7eff6db52ea3f3ec1cef27f10c3') in 0.003658 seconds
+  Import took 0.008234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.483012 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffa1d1726da74045c9a164a64085412') in 0.003692 seconds
+  Import took 0.008101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.150353 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570d63158bd075e9744e14776c7e2260') in 0.004079 seconds
+  Import took 0.008498 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.4 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 2.344700 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.171400 ms MarkObjects: 1.921900 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.195465 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c18466e72d045f2445e5f567810f58') in 0.032315 seconds
+  Import took 0.037493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.815145 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3c3b5c9af4aeffb712d8abdd39f2de') in 0.003248 seconds
+  Import took 0.020625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013653 seconds.
+  path: Assets/12VortexStreet/FluidTest.vfx
+  artifactKey: Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/12VortexStreet/FluidTest.vfx using Guid(7ab7eb4941212704fbea593f1150b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3c3b5c9af4aeffb712d8abdd39f2de') in 0.003642 seconds
+  Import took 0.007794 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
